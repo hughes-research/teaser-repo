@@ -1,0 +1,1047 @@
+{
+  "pipeline_config": {
+    "controller_type": "resilient",
+    "config_file": "config.yaml"
+  },
+  "performance_metrics": {
+    "total_inputs": 13,
+    "successful_classifications": 13,
+    "controller_success_rate": 0.0,
+    "average_response_time": 5.735462738917424,
+    "neurochemical_scores": [
+      {
+        "Cortisol": 0.1,
+        "Dopamine": 0.1,
+        "Serotonin": 0.1,
+        "Oxytocin": 0.05,
+        "Epinephrine": 0.05,
+        "Norepinephrine": 0.05,
+        "Melatonin": 0.05,
+        "Estrogen": 0.05,
+        "Testosterone": 0.05,
+        "Insulin": 0.05,
+        "Thyroid": 0.05,
+        "Endorphins": 0.05
+      },
+      {
+        "Cortisol": 0.75,
+        "Dopamine": 0.2,
+        "Serotonin": 0.1,
+        "Oxytocin": 0.05,
+        "Epinephrine": 0.85,
+        "Norepinephrine": 0.6,
+        "Melatonin": 0.15,
+        "Estrogen": 0.05,
+        "Testosterone": 0.2,
+        "Insulin": 0.1,
+        "Thyroid": 0.3,
+        "Endorphins": 0.15
+      },
+      {
+        "Cortisol": 0.95,
+        "Dopamine": 0.3,
+        "Serotonin": 0.2,
+        "Oxytocin": 0.1,
+        "Epinephrine": 0.85,
+        "Norepinephrine": 0.6,
+        "Melatonin": 0.1,
+        "Estrogen": 0.1,
+        "Testosterone": 0.2,
+        "Insulin": 0.1,
+        "Thyroid": 0.3,
+        "Endorphins": 0.4
+      },
+      {
+        "Cortisol": 0.75,
+        "Dopamine": 0.2,
+        "Serotonin": 0.1,
+        "Oxytocin": 0.05,
+        "Epinephrine": 0.85,
+        "Norepinephrine": 0.7,
+        "Melatonin": 0.1,
+        "Estrogen": 0.1,
+        "Testosterone": 0.3,
+        "Insulin": 0.1,
+        "Thyroid": 0.3,
+        "Endorphins": 0.25
+      },
+      {
+        "Cortisol": 0.3,
+        "Dopamine": 0.7,
+        "Serotonin": 0.4,
+        "Oxytocin": 0.2,
+        "Epinephrine": 0.4,
+        "Norepinephrine": 0.5,
+        "Melatonin": 0.1,
+        "Estrogen": 0.2,
+        "Testosterone": 0.3,
+        "Insulin": 0.1,
+        "Thyroid": 0.2,
+        "Endorphins": 0.6
+      },
+      {
+        "Cortisol": 0.1,
+        "Dopamine": 0.7,
+        "Serotonin": 0.4,
+        "Oxytocin": 0.2,
+        "Epinephrine": 0.2,
+        "Norepinephrine": 0.3,
+        "Melatonin": 0.1,
+        "Estrogen": 0.1,
+        "Testosterone": 0.1,
+        "Insulin": 0.1,
+        "Thyroid": 0.1,
+        "Endorphins": 0.5
+      },
+      {
+        "Cortisol": 0.4,
+        "Dopamine": 0.3,
+        "Serotonin": 0.2,
+        "Oxytocin": 0.1,
+        "Epinephrine": 0.2,
+        "Norepinephrine": 0.1,
+        "Melatonin": 0.1,
+        "Estrogen": 0.1,
+        "Testosterone": 0.1,
+        "Insulin": 0.1,
+        "Thyroid": 0.1,
+        "Endorphins": 0.2
+      },
+      {
+        "Cortisol": 0.1,
+        "Dopamine": 0.4,
+        "Serotonin": 0.3,
+        "Oxytocin": 0.1,
+        "Epinephrine": 0.1,
+        "Norepinephrine": 0.2,
+        "Melatonin": 0.05,
+        "Estrogen": 0.05,
+        "Testosterone": 0.05,
+        "Insulin": 0.05,
+        "Thyroid": 0.1,
+        "Endorphins": 0.2
+      },
+      {
+        "Cortisol": 0.05,
+        "Dopamine": 0.05,
+        "Serotonin": 0.05,
+        "Oxytocin": 0.01,
+        "Epinephrine": 0.01,
+        "Norepinephrine": 0.01,
+        "Melatonin": 0.01,
+        "Estrogen": 0.01,
+        "Testosterone": 0.01,
+        "Insulin": 0.01,
+        "Thyroid": 0.01,
+        "Endorphins": 0.01
+      },
+      {
+        "Cortisol": 0.4,
+        "Dopamine": 0.2,
+        "Serotonin": 0.3,
+        "Oxytocin": 0.1,
+        "Epinephrine": 0.2,
+        "Norepinephrine": 0.1,
+        "Melatonin": 0.1,
+        "Estrogen": 0.1,
+        "Testosterone": 0.1,
+        "Insulin": 0.1,
+        "Thyroid": 0.1,
+        "Endorphins": 0.2
+      },
+      {
+        "Cortisol": 0.75,
+        "Dopamine": 0.4,
+        "Serotonin": 0.3,
+        "Oxytocin": 0.2,
+        "Epinephrine": 0.7,
+        "Norepinephrine": 0.6,
+        "Melatonin": 0.1,
+        "Estrogen": 0.1,
+        "Testosterone": 0.2,
+        "Insulin": 0.1,
+        "Thyroid": 0.3,
+        "Endorphins": 0.3
+      },
+      {
+        "Cortisol": 0.6,
+        "Dopamine": 0.5,
+        "Serotonin": 0.4,
+        "Oxytocin": 0.3,
+        "Epinephrine": 0.2,
+        "Norepinephrine": 0.3,
+        "Melatonin": 0.1,
+        "Estrogen": 0.2,
+        "Testosterone": 0.2,
+        "Insulin": 0.1,
+        "Thyroid": 0.2,
+        "Endorphins": 0.4
+      },
+      {
+        "Cortisol": 0.65,
+        "Dopamine": 0.45,
+        "Serotonin": 0.4,
+        "Oxytocin": 0.25,
+        "Epinephrine": 0.3,
+        "Norepinephrine": 0.35,
+        "Melatonin": 0.1,
+        "Estrogen": 0.2,
+        "Testosterone": 0.15,
+        "Insulin": 0.1,
+        "Thyroid": 0.2,
+        "Endorphins": 0.35
+      }
+    ],
+    "hormone_trajectories": [
+      {
+        "tick": 1,
+        "stress": 0.003921881318092346,
+        "curiosity": 0.03085200095176697,
+        "resilience_mode": "normal"
+      },
+      {
+        "tick": 2,
+        "stress": 0.014433524409929913,
+        "curiosity": 0.08499934482574463,
+        "resilience_mode": "normal"
+      },
+      {
+        "tick": 3,
+        "stress": 0.05140570004781088,
+        "curiosity": 0.12590997076034546,
+        "resilience_mode": "normal"
+      },
+      {
+        "tick": 4,
+        "stress": 0.06098621229330699,
+        "curiosity": 0.177886195063591,
+        "resilience_mode": "normal"
+      },
+      {
+        "tick": 5,
+        "stress": 0.06771217966079712,
+        "curiosity": 0.30067526817321777,
+        "resilience_mode": "normal"
+      },
+      {
+        "tick": 6,
+        "stress": 0.07130625641345978,
+        "curiosity": 0.39265983533859256,
+        "resilience_mode": "normal"
+      },
+      {
+        "tick": 7,
+        "stress": 0.08382985949516296,
+        "curiosity": 0.4765434906482697,
+        "resilience_mode": "normal"
+      },
+      {
+        "tick": 8,
+        "stress": 0.08610787987709045,
+        "curiosity": 0.5285112318992615,
+        "resilience_mode": "normal"
+      },
+      {
+        "tick": 9,
+        "stress": 0.08834123611450195,
+        "curiosity": 0.5712920050621033,
+        "resilience_mode": "normal"
+      },
+      {
+        "tick": 10,
+        "stress": 0.09053079783916473,
+        "curiosity": 0.6070956630706787,
+        "resilience_mode": "normal"
+      },
+      {
+        "tick": 11,
+        "stress": 0.13367742186784745,
+        "curiosity": 0.6780815629959107,
+        "resilience_mode": "normal"
+      },
+      {
+        "tick": 12,
+        "stress": 0.13497796654701233,
+        "curiosity": 0.7054461703300476,
+        "resilience_mode": "normal"
+      },
+      {
+        "tick": 13,
+        "stress": 0.1362529993057251,
+        "curiosity": 0.7601858272552491,
+        "resilience_mode": "normal"
+      }
+    ],
+    "memory_stats": [
+      {
+        "short_term_count": 3,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 3,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      },
+      {
+        "short_term_count": 4,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 4,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      },
+      {
+        "short_term_count": 5,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 5,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      },
+      {
+        "short_term_count": 6,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 6,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      },
+      {
+        "short_term_count": 7,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 7,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      },
+      {
+        "short_term_count": 8,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 8,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      },
+      {
+        "short_term_count": 9,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 9,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      },
+      {
+        "short_term_count": 10,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 10,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      },
+      {
+        "short_term_count": 11,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 11,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      },
+      {
+        "short_term_count": 12,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 12,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      },
+      {
+        "short_term_count": 13,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 13,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      },
+      {
+        "short_term_count": 14,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 14,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      },
+      {
+        "short_term_count": 15,
+        "mid_term_count": 0,
+        "quadrant_counts": {
+          "crisis_learning": 0,
+          "skill_building": 0,
+          "exploration": 0,
+          "routine_forget": 0
+        },
+        "total_memories": 15,
+        "last_sleep_cycle": 1755913170.7502239,
+        "storage_type": "qdrant"
+      }
+    ]
+  },
+  "results": [
+    {
+      "input_id": "input_0",
+      "memory_id": "20d6333d-9363-4f13-9de9-43f213aa44af",
+      "text": "Testing Qdrant integration",
+      "neurochemical_scores": {
+        "Cortisol": 0.1,
+        "Dopamine": 0.1,
+        "Serotonin": 0.1,
+        "Oxytocin": 0.05,
+        "Epinephrine": 0.05,
+        "Norepinephrine": 0.05,
+        "Melatonin": 0.05,
+        "Estrogen": 0.05,
+        "Testosterone": 0.05,
+        "Insulin": 0.05,
+        "Thyroid": 0.05,
+        "Endorphins": 0.05
+      },
+      "hormone_impulses": {
+        "stress": 0.14,
+        "curiosity": 0.43500000000000005
+      },
+      "controller_result": {
+        "tick": 1,
+        "knob": 0.7532508969306946,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.03085200095176697,
+          "stress": 0.003921881318092346
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.024,
+          "stress": 0.0
+        },
+        "raw_impulses": {
+          "curiosity": 0.024,
+          "stress": 0.0
+        },
+        "recent_success": 0.5,
+        "advantage": 1.00040864944458
+      },
+      "processing_time": 5.452324867248535,
+      "timestamp": "2025-08-22T20:39:36.751915"
+    },
+    {
+      "input_id": "batch_0",
+      "memory_id": "36f5c3bd-69df-4248-8a30-16f5d9a1399c",
+      "text": "URGENT CRITICAL ERROR SYSTEM FAILURE IMMEDIATE RESPONSE REQUIRED",
+      "neurochemical_scores": {
+        "Cortisol": 0.75,
+        "Dopamine": 0.2,
+        "Serotonin": 0.1,
+        "Oxytocin": 0.05,
+        "Epinephrine": 0.85,
+        "Norepinephrine": 0.6,
+        "Melatonin": 0.15,
+        "Estrogen": 0.05,
+        "Testosterone": 0.2,
+        "Insulin": 0.1,
+        "Thyroid": 0.3,
+        "Endorphins": 0.15
+      },
+      "hormone_impulses": {
+        "stress": 1.0,
+        "curiosity": 1.0
+      },
+      "controller_result": {
+        "tick": 2,
+        "knob": 0.7582844495773315,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.08499934482574463,
+          "stress": 0.014433524409929913
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.048,
+          "stress": 0.006666666666666668
+        },
+        "raw_impulses": {
+          "curiosity": 0.048,
+          "stress": 0.02666666666666667
+        },
+        "recent_success": 1.0,
+        "advantage": 1.001063585281372
+      },
+      "processing_time": 5.580906867980957,
+      "timestamp": "2025-08-22T20:39:42.349068"
+    },
+    {
+      "input_id": "batch_1",
+      "memory_id": "49bc176f-02a5-43b0-81d1-fea9c8861458",
+      "text": "DEADLINE CRISIS EVERYTHING BROKEN PRESSURE EMERGENCY",
+      "neurochemical_scores": {
+        "Cortisol": 0.95,
+        "Dopamine": 0.3,
+        "Serotonin": 0.2,
+        "Oxytocin": 0.1,
+        "Epinephrine": 0.85,
+        "Norepinephrine": 0.6,
+        "Melatonin": 0.1,
+        "Estrogen": 0.1,
+        "Testosterone": 0.2,
+        "Insulin": 0.1,
+        "Thyroid": 0.3,
+        "Endorphins": 0.4
+      },
+      "hormone_impulses": {
+        "stress": 1.0,
+        "curiosity": 1.0
+      },
+      "controller_result": {
+        "tick": 3,
+        "knob": 0.75691819190979,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.12590997076034546,
+          "stress": 0.05140570004781088
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.036,
+          "stress": 0.03333333333333334
+        },
+        "raw_impulses": {
+          "curiosity": 0.036,
+          "stress": 0.05333333333333334
+        },
+        "recent_success": 1.0,
+        "advantage": 1.0017247200012207
+      },
+      "processing_time": 5.624094009399414,
+      "timestamp": "2025-08-22T20:39:48.106775"
+    },
+    {
+      "input_id": "batch_2",
+      "memory_id": "ddeb09cc-1bc3-481d-acbe-d8e2ab833e93",
+      "text": "CATASTROPHIC FAILURE ALL HANDS ON DECK RUSH CRITICAL",
+      "neurochemical_scores": {
+        "Cortisol": 0.75,
+        "Dopamine": 0.2,
+        "Serotonin": 0.1,
+        "Oxytocin": 0.05,
+        "Epinephrine": 0.85,
+        "Norepinephrine": 0.7,
+        "Melatonin": 0.1,
+        "Estrogen": 0.1,
+        "Testosterone": 0.3,
+        "Insulin": 0.1,
+        "Thyroid": 0.3,
+        "Endorphins": 0.25
+      },
+      "hormone_impulses": {
+        "stress": 1.0,
+        "curiosity": 1.0
+      },
+      "controller_result": {
+        "tick": 4,
+        "knob": 0.7613938450813293,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.177886195063591,
+          "stress": 0.06098621229330699
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.048,
+          "stress": 0.006666666666666668
+        },
+        "raw_impulses": {
+          "curiosity": 0.048,
+          "stress": 0.02666666666666667
+        },
+        "recent_success": 1.0,
+        "advantage": 1.0020954608917236
+      },
+      "processing_time": 5.5948708057403564,
+      "timestamp": "2025-08-22T20:39:53.827284"
+    },
+    {
+      "input_id": "batch_3",
+      "memory_id": "a1aa34a1-5ee9-4100-aee9-6bb7a99dd3bd",
+      "text": "Fascinating new discovery! Explore unknown territory! Novel breakthrough!",
+      "neurochemical_scores": {
+        "Cortisol": 0.3,
+        "Dopamine": 0.7,
+        "Serotonin": 0.4,
+        "Oxytocin": 0.2,
+        "Epinephrine": 0.4,
+        "Norepinephrine": 0.5,
+        "Melatonin": 0.1,
+        "Estrogen": 0.2,
+        "Testosterone": 0.3,
+        "Insulin": 0.1,
+        "Thyroid": 0.2,
+        "Endorphins": 0.6
+      },
+      "hormone_impulses": {
+        "stress": 0.6200000000000001,
+        "curiosity": 1.0
+      },
+      "controller_result": {
+        "tick": 5,
+        "knob": 0.774708092212677,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.30067526817321777,
+          "stress": 0.06771217966079712
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.12,
+          "stress": 0.004
+        },
+        "raw_impulses": {
+          "curiosity": 0.12,
+          "stress": 0.024
+        },
+        "recent_success": 1.0,
+        "advantage": 1.0028752088546753
+      },
+      "processing_time": 5.510958909988403,
+      "timestamp": "2025-08-22T20:39:59.455953"
+    },
+    {
+      "input_id": "batch_4",
+      "memory_id": "5338e390-8ba4-4687-b4d8-5d530ca2ddb9",
+      "text": "Revolutionary research! Discover amazing patterns! Investigate possibilities!",
+      "neurochemical_scores": {
+        "Cortisol": 0.1,
+        "Dopamine": 0.7,
+        "Serotonin": 0.4,
+        "Oxytocin": 0.2,
+        "Epinephrine": 0.2,
+        "Norepinephrine": 0.3,
+        "Melatonin": 0.1,
+        "Estrogen": 0.1,
+        "Testosterone": 0.1,
+        "Insulin": 0.1,
+        "Thyroid": 0.1,
+        "Endorphins": 0.5
+      },
+      "hormone_impulses": {
+        "stress": 0.26,
+        "curiosity": 1.0
+      },
+      "controller_result": {
+        "tick": 6,
+        "knob": 0.7850752472877502,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.39265983533859256,
+          "stress": 0.07130625641345978
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.09200000000000001,
+          "stress": 0.0009999999999999974
+        },
+        "raw_impulses": {
+          "curiosity": 0.09200000000000001,
+          "stress": 0.020999999999999998
+        },
+        "recent_success": 1.0,
+        "advantage": 1.0031758546829224
+      },
+      "processing_time": 5.475552082061768,
+      "timestamp": "2025-08-22T20:40:05.056563"
+    },
+    {
+      "input_id": "batch_5",
+      "memory_id": "e36fd30a-594f-48e6-b918-de0cf998050e",
+      "text": "Intriguing anomaly! Novel findings! Mysterious behavior! What could this mean?",
+      "neurochemical_scores": {
+        "Cortisol": 0.4,
+        "Dopamine": 0.3,
+        "Serotonin": 0.2,
+        "Oxytocin": 0.1,
+        "Epinephrine": 0.2,
+        "Norepinephrine": 0.1,
+        "Melatonin": 0.1,
+        "Estrogen": 0.1,
+        "Testosterone": 0.1,
+        "Insulin": 0.1,
+        "Thyroid": 0.1,
+        "Endorphins": 0.2
+      },
+      "hormone_impulses": {
+        "stress": 0.56,
+        "curiosity": 1.0
+      },
+      "controller_result": {
+        "tick": 7,
+        "knob": 0.7926352024078369,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.4765434906482697,
+          "stress": 0.08382985949516296
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.08600000000000001,
+          "stress": 0.009999999999999998
+        },
+        "raw_impulses": {
+          "curiosity": 0.08600000000000001,
+          "stress": 0.03
+        },
+        "recent_success": 1.0,
+        "advantage": 1.0032929182052612
+      },
+      "processing_time": 5.5513060092926025,
+      "timestamp": "2025-08-22T20:40:10.730767"
+    },
+    {
+      "input_id": "batch_6",
+      "memory_id": "b0b70539-714e-432e-8606-ab305a014611",
+      "text": "System maintenance completed successfully. Ready for new challenges.",
+      "neurochemical_scores": {
+        "Cortisol": 0.1,
+        "Dopamine": 0.4,
+        "Serotonin": 0.3,
+        "Oxytocin": 0.1,
+        "Epinephrine": 0.1,
+        "Norepinephrine": 0.2,
+        "Melatonin": 0.05,
+        "Estrogen": 0.05,
+        "Testosterone": 0.05,
+        "Insulin": 0.05,
+        "Thyroid": 0.1,
+        "Endorphins": 0.2
+      },
+      "hormone_impulses": {
+        "stress": 0.18000000000000002,
+        "curiosity": 1.0
+      },
+      "controller_result": {
+        "tick": 8,
+        "knob": 0.7987908720970154,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.5285112318992615,
+          "stress": 0.08610787987709045
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.055999999999999994,
+          "stress": 0.0
+        },
+        "raw_impulses": {
+          "curiosity": 0.055999999999999994,
+          "stress": 0.0
+        },
+        "recent_success": 1.0,
+        "advantage": 1.0030086040496826
+      },
+      "processing_time": 5.596254110336304,
+      "timestamp": "2025-08-22T20:40:16.448701"
+    },
+    {
+      "input_id": "batch_7",
+      "memory_id": "43c8000b-7aea-4b41-9404-e901b325246d",
+      "text": "Routine daily meeting standard procedure typical normal usual",
+      "neurochemical_scores": {
+        "Cortisol": 0.05,
+        "Dopamine": 0.05,
+        "Serotonin": 0.05,
+        "Oxytocin": 0.01,
+        "Epinephrine": 0.01,
+        "Norepinephrine": 0.01,
+        "Melatonin": 0.01,
+        "Estrogen": 0.01,
+        "Testosterone": 0.01,
+        "Insulin": 0.01,
+        "Thyroid": 0.01,
+        "Endorphins": 0.01
+      },
+      "hormone_impulses": {
+        "stress": 0.058,
+        "curiosity": 0.13800000000000004
+      },
+      "controller_result": {
+        "tick": 9,
+        "knob": 0.8040012121200562,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.5712920050621033,
+          "stress": 0.08834123611450195
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.048,
+          "stress": 0.0
+        },
+        "raw_impulses": {
+          "curiosity": 0.048,
+          "stress": 0.0
+        },
+        "recent_success": 1.0,
+        "advantage": 1.0025712251663208
+      },
+      "processing_time": 5.855028867721558,
+      "timestamp": "2025-08-22T20:40:22.427114"
+    },
+    {
+      "input_id": "batch_8",
+      "memory_id": "149be6d5-fb71-4254-9d71-1f275d7f9c59",
+      "text": "Monitoring alert spike detected but under control",
+      "neurochemical_scores": {
+        "Cortisol": 0.4,
+        "Dopamine": 0.2,
+        "Serotonin": 0.3,
+        "Oxytocin": 0.1,
+        "Epinephrine": 0.2,
+        "Norepinephrine": 0.1,
+        "Melatonin": 0.1,
+        "Estrogen": 0.1,
+        "Testosterone": 0.1,
+        "Insulin": 0.1,
+        "Thyroid": 0.1,
+        "Endorphins": 0.2
+      },
+      "hormone_impulses": {
+        "stress": 0.56,
+        "curiosity": 1.0
+      },
+      "controller_result": {
+        "tick": 10,
+        "knob": 0.8085094690322876,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.6070956630706787,
+          "stress": 0.09053079783916473
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.042,
+          "stress": 0.0
+        },
+        "raw_impulses": {
+          "curiosity": 0.042,
+          "stress": 0.0
+        },
+        "recent_success": 1.0,
+        "advantage": 1.0020129680633545
+      },
+      "processing_time": 5.521183967590332,
+      "timestamp": "2025-08-22T20:40:28.063102"
+    },
+    {
+      "input_id": "batch_9",
+      "memory_id": "129e5f63-5555-4ab6-a9bd-40808e42f955",
+      "text": "URGENT research needed! Critical discovery! Emergency investigation!",
+      "neurochemical_scores": {
+        "Cortisol": 0.75,
+        "Dopamine": 0.4,
+        "Serotonin": 0.3,
+        "Oxytocin": 0.2,
+        "Epinephrine": 0.7,
+        "Norepinephrine": 0.6,
+        "Melatonin": 0.1,
+        "Estrogen": 0.1,
+        "Testosterone": 0.2,
+        "Insulin": 0.1,
+        "Thyroid": 0.3,
+        "Endorphins": 0.3
+      },
+      "hormone_impulses": {
+        "stress": 1.0,
+        "curiosity": 1.0
+      },
+      "controller_result": {
+        "tick": 11,
+        "knob": 0.8071821928024292,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.6780815629959107,
+          "stress": 0.13367742186784745
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.07800000000000001,
+          "stress": 0.04100000000000001
+        },
+        "raw_impulses": {
+          "curiosity": 0.07800000000000001,
+          "stress": 0.061000000000000006
+        },
+        "recent_success": 1.0,
+        "advantage": 1.0015095472335815
+      },
+      "processing_time": 5.661597013473511,
+      "timestamp": "2025-08-22T20:40:33.851494"
+    },
+    {
+      "input_id": "batch_10",
+      "memory_id": "1773a4b9-c830-48b2-9477-03b5d7fe2eaa",
+      "text": "Exciting breakthrough in stress management techniques",
+      "neurochemical_scores": {
+        "Cortisol": 0.6,
+        "Dopamine": 0.5,
+        "Serotonin": 0.4,
+        "Oxytocin": 0.3,
+        "Epinephrine": 0.2,
+        "Norepinephrine": 0.3,
+        "Melatonin": 0.1,
+        "Estrogen": 0.2,
+        "Testosterone": 0.2,
+        "Insulin": 0.1,
+        "Thyroid": 0.2,
+        "Endorphins": 0.4
+      },
+      "hormone_impulses": {
+        "stress": 0.76,
+        "curiosity": 1.0
+      },
+      "controller_result": {
+        "tick": 12,
+        "knob": 0.8110412955284119,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.7054461703300476,
+          "stress": 0.13497796654701233
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.036,
+          "stress": 0.0
+        },
+        "raw_impulses": {
+          "curiosity": 0.036,
+          "stress": 0.0
+        },
+        "recent_success": 1.0,
+        "advantage": 1.0006910562515259
+      },
+      "processing_time": 5.787782192230225,
+      "timestamp": "2025-08-22T20:40:39.762915"
+    },
+    {
+      "input_id": "batch_11",
+      "memory_id": "08275047-3e52-4a18-8882-b0c5dca654f7",
+      "text": "New learning opportunity in crisis response systems",
+      "neurochemical_scores": {
+        "Cortisol": 0.65,
+        "Dopamine": 0.45,
+        "Serotonin": 0.4,
+        "Oxytocin": 0.25,
+        "Epinephrine": 0.3,
+        "Norepinephrine": 0.35,
+        "Melatonin": 0.1,
+        "Estrogen": 0.2,
+        "Testosterone": 0.15,
+        "Insulin": 0.1,
+        "Thyroid": 0.2,
+        "Endorphins": 0.35
+      },
+      "hormone_impulses": {
+        "stress": 0.89,
+        "curiosity": 1.0
+      },
+      "controller_result": {
+        "tick": 13,
+        "knob": 0.8182780742645264,
+        "reward": 1.0,
+        "hormones": {
+          "curiosity": 0.7601858272552491,
+          "stress": 0.1362529993057251
+        },
+        "resilience_mode": "normal",
+        "stress_baseline": 0.2,
+        "impulses": {
+          "curiosity": 0.06400000000000002,
+          "stress": 0.0
+        },
+        "raw_impulses": {
+          "curiosity": 0.06400000000000002,
+          "stress": 0.013333333333333332
+        },
+        "recent_success": 1.0,
+        "advantage": 0.9997978210449219
+      },
+      "processing_time": 7.349155902862549,
+      "timestamp": "2025-08-22T20:40:47.258346"
+    }
+  ]
+}

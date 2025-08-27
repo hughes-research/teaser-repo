@@ -1,0 +1,15 @@
+{
+  "pipeline_config": {
+    "controller_type": "resilient",
+    "config_file": "config.yaml"
+  },
+  "performance_metrics": {
+    "total_inputs": 0,
+    "successful_classifications": 0,
+    "controller_success_rate": 0.0,
+    "average_response_time": 0.0,
+    "neurochemical_profiles": [],
+    "hormone_trajectories": []
+  },
+  "results": []
+}
