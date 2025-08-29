@@ -14,6 +14,35 @@
 
 A next-generation memory layer for large language models designed to stay stable, useful, and fast over long horizons. It is inspired by biological systems and guided by formal mathematics, without relying on ever-growing context windows.
 
+## TLDR;
+
+A self-regulating, model-agnostic AI runtime that learns continuously, decides what to remember, and stays stable under pressure—because its behavior is governed by math, not vibes.
+
+**What it is**
+
+A full-stack control system around an LLM that blends:
+-	Neuro-inspired state (“hormones”) with exponential decay and impulses,
+-	A bounded control composer that turns those states into safe knob settings (temperature, top-p, retrieve_k, tool gating),
+-	A value head (optionally a GNN over the hormone graph) and policy-gradient updates that improve decisions online,
+-	Resilience layers (circuit breaker, timeout, adaptive baselines) providing defense-in-depth and Lyapunov-style stability,
+-	A memory consolidation lab that scores content via a neurochemical classifier and only stores what’s worth remembering.
+
+How it works (tight loop)
+1.	Signals (novelty, errors, stress) trigger hormone impulses → decay keeps them bounded.
+2.	Hormones compose control knobs via a weighted, clamped blend (guaranteed in-range).
+3.	The system retrieves, tools, and prompts under those knobs.
+4.	Outcomes are scored (task/quality/safety/efficiency + memory score).
+5.	Value/advantage is computed; policy params that map hormones→knobs are updated.
+6.	Resilience may reset stress or pause inputs to guarantee recovery.
+7.	If memory is optimal, the item is consolidated; credit is tracked for future retrieval.
+
+Why it’s different
+- Provable stability: bounded states + Lyapunov argument; safety is first-class math.
+- Compositional resilience: multiple layers reduce joint failure probability.
+-	Memory economics: a principled gate for what to store (not just “retrieve more”).
+-	Explainability: behavior is traceable to an interpretable hormone vector and clamps.
+-	Model-agnostic: learning and memory live outside base weights, so models can be swapped.
+
 ## Why this is different
 - **Biologically inspired dynamics**: adaptive write/forget signals and hormone-like decay  
 - **Graph-aware consolidation**: memories interact over a sparse graph scored by a value function  
