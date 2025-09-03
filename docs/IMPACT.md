@@ -231,7 +231,7 @@ We invite collaboration across disciplines to refine the resilience law, extend 
 ## Related Documentation
 
 ### Core Documentation
-- **[README.md](README.md)** - Project overview and quick start guide
+- **[README.md](../README.md)** - Project overview and quick start guide
 - **[BREAKTHROUGH.md](BREAKTHROUGH.md)** - Technical breakthrough details and architecture overview
 - **[FOUNDATION.md](FOUNDATION.md)** - Mathematical foundations and formal proofs
 - **[whitepaper.md](whitepaper.md)** - Comprehensive technical white paper

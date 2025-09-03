@@ -407,7 +407,7 @@ The mathematical foundations demonstrate that human-like psychological resilienc
 ## Related Documentation
 
 ### Core Documentation
-- **[README.md](README.md)** - Project overview and quick start guide
+- **[README.md](../README.md)** - Project overview and quick start guide
 - **[BREAKTHROUGH.md](BREAKTHROUGH.md)** - Technical breakthrough details and architecture overview
 - **[IMPACT.md](IMPACT.md)** - Research significance and broader applications
 - **[whitepaper.md](whitepaper.md)** - Comprehensive technical white paper

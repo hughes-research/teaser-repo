@@ -19,8 +19,8 @@ A next-generation memory layer for large language models designed to stay stable
 A controller prototype around an LLM that maintains bounded internal “hormone” state (e.g., stress, curiosity), composes those into safe control knobs (e.g., temperature, top_p), and applies layered coping (timeouts, resets, baselines) to keep behavior stable. This repo provides a working Python prototype, small simulations, and math notes.
 
 What’s included now
-- `gnn_controller.py`, `resilient_controller.py`, `content_processor.py`
-- A minimal, reproducible simulation in `resilient_controller.py::test_resilient_chaos()`
+- `src/gnn_controller.py`, `src/resilient_controller.py`, `src/content_processor.py`
+- A minimal, reproducible simulation in `src/resilient_controller.py::test_resilient_chaos()`
 
 What’s not included yet
 - Production adapters, a full memory pipeline, and external benchmarks
@@ -41,7 +41,7 @@ Why it’s different (prototype scope)
 - Inspectable behavior via a small hormone vector and modes
 
 Evidence and limitations
-- The toy simulation shows higher “in-range” control rate with resilience layers enabled. Reproduce via `resilient_controller.py::test_resilient_chaos()`.
+- The toy simulation shows higher "in-range" control rate with resilience layers enabled. Reproduce via `src/resilient_controller.py::test_resilient_chaos()`.
 - Results are preliminary and scenario-specific. They are not a statement about real-world reliability; external replication and broader tasks are future work.
 
 ## Why this is different
@@ -56,16 +56,16 @@ Evidence and limitations
 ## Documentation
 
 ### Core Documentation
-- **[BREAKTHROUGH.md](BREAKTHROUGH.md)** - Technical breakthrough details and architecture overview
-- **[FOUNDATION.md](FOUNDATION.md)** - Mathematical foundations and formal proofs
-- **[IMPACT.md](IMPACT.md)** - White paper on research significance and applications
-- **[whitepaper.md](whitepaper.md)** - Comprehensive white paper with technical details
-- **[wiki_page.md](wiki_page.md)** - Complete project wiki and reference guide
+- **[BREAKTHROUGH.md](docs/BREAKTHROUGH.md)** - Technical breakthrough details and architecture overview
+- **[FOUNDATION.md](docs/FOUNDATION.md)** - Mathematical foundations and formal proofs
+- **[IMPACT.md](docs/IMPACT.md)** - White paper on research significance and applications
+- **[whitepaper.md](docs/whitepaper.md)** - Comprehensive white paper with technical details
+- **[wiki_page.md](docs/wiki_page.md)** - Complete project wiki and reference guide
 
 ### Project Documentation
-- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Community guidelines and standards
-- **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute to the project
-- **[SECURITY.md](SECURITY.md)** - Security policy and vulnerability reporting
+- **[CODE_OF_CONDUCT.md](docs/CODE_OF_CONDUCT.md)** - Community guidelines and standards
+- **[CONTRIBUTING.md](docs/CONTRIBUTING.md)** - How to contribute to the project
+- **[SECURITY.md](docs/SECURITY.md)** - Security policy and vulnerability reporting
 
 ---
 

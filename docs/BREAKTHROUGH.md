@@ -53,7 +53,7 @@ Inputs → Content Processor → Hormone State → Resilience Layers → Bounded
 ## Related Documentation
 
 ### Core Documentation
-- **[README.md](README.md)** - Project overview and quick start guide
+- **[README.md](../README.md)** - Project overview and quick start guide
 - **[FOUNDATION.md](FOUNDATION.md)** - Mathematical foundations and formal proofs
 - **[IMPACT.md](IMPACT.md)** - Research significance and broader applications
 - **[whitepaper.md](whitepaper.md)** - Comprehensive technical white paper

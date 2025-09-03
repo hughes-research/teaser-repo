@@ -31,7 +31,7 @@ declined, etc.
 ## Related Documentation
 
 ### Core Documentation
-- **[README.md](README.md)** - Project overview and quick start guide
+- **[README.md](../README.md)** - Project overview and quick start guide
 - **[BREAKTHROUGH.md](BREAKTHROUGH.md)** - Technical breakthrough details and architecture overview
 - **[FOUNDATION.md](FOUNDATION.md)** - Mathematical foundations and formal proofs
 - **[IMPACT.md](IMPACT.md)** - Research significance and broader applications
