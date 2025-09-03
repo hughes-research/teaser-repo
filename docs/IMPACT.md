@@ -91,8 +91,8 @@ Psychological resilience transforms AI from powerful yet brittle tools into **tr
 
 ### Next Steps for Readers
 - **Implement:** Follow [README.md](README.md) for code and demos.  
-- **Study:** Explore formal proofs in [MATHEMATICS.md](MATHEMATICS.md).  
-- **Apply:** Discover 50+ transformative applications in [USECASES.md](USECASES.md).  
+- **Study:** Explore formal proofs in [FOUNDATION.md](FOUNDATION.md).  
+- **Apply:** Discover 50+ transformative applications in usecases.  
 - **Collaborate:** Contact *Resilient AI Research* for partnerships.
 
 ---
