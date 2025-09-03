@@ -16,16 +16,14 @@ A next-generation memory layer for large language models designed to stay stable
 
 ## TLDR;
 
-A self-regulating, model-agnostic AI runtime that learns continuously, decides what to remember, and stays stable under pressure—because its behavior is governed by math, not vibes.
+A controller prototype around an LLM that maintains bounded internal “hormone” state (e.g., stress, curiosity), composes those into safe control knobs (e.g., temperature, top_p), and applies layered coping (timeouts, resets, baselines) to keep behavior stable. This repo provides a working Python prototype, small simulations, and math notes.
 
-**What it is**
+What’s included now
+- `gnn_controller.py`, `resilient_controller.py`, `content_processor.py`
+- A minimal, reproducible simulation in `resilient_controller.py::test_resilient_chaos()`
 
-A full-stack control system around an LLM that blends:
--	Neuro-inspired state (“hormones”) with exponential decay and impulses,
--	A bounded control composer that turns those states into safe knob settings (temperature, top-p, retrieve_k, tool gating),
--	A value head (optionally a GNN over the hormone graph) and policy-gradient updates that improve decisions online,
--	Resilience layers (circuit breaker, timeout, adaptive baselines) providing defense-in-depth and Lyapunov-style stability,
--	A memory consolidation lab that scores content via a neurochemical classifier and only stores what’s worth remembering.
+What’s not included yet
+- Production adapters, a full memory pipeline, and external benchmarks
 
 How it works (tight loop)
 1.	Signals (novelty, errors, stress) trigger hormone impulses → decay keeps them bounded.
@@ -36,19 +34,38 @@ How it works (tight loop)
 6.	Resilience may reset stress or pause inputs to guarantee recovery.
 7.	If memory is optimal, the item is consolidated; credit is tracked for future retrieval.
 
-Why it’s different
-- Provable stability: bounded states + Lyapunov argument; safety is first-class math.
-- Compositional resilience: multiple layers reduce joint failure probability.
--	Memory economics: a principled gate for what to store (not just “retrieve more”).
--	Explainability: behavior is traceable to an interpretable hormone vector and clamps.
--	Model-agnostic: learning and memory live outside base weights, so models can be swapped.
+Why it’s different (prototype scope)
+- Bounded internal state with explicit decay and clamps
+- Layered coping that reduces the chance of prolonged instability
+- Knob mapping separated from the base model (provider-agnostic)
+- Inspectable behavior via a small hormone vector and modes
+
+Evidence and limitations
+- The toy simulation shows higher “in-range” control rate with resilience layers enabled. Reproduce via `resilient_controller.py::test_resilient_chaos()`.
+- Results are preliminary and scenario-specific. They are not a statement about real-world reliability; external replication and broader tasks are future work.
 
 ## Why this is different
-- **Biologically inspired dynamics**: adaptive write/forget signals and hormone-like decay  
-- **Graph-aware consolidation**: memories interact over a sparse graph scored by a value function  
-- **Resilience-first design**: safeguards against runaway growth, catastrophic forgetting, and noise  
-- **Theory-backed**: convergence and boundedness under realistic assumptions  
-- **Practical wins**: early internal runs show strong recall and throughput gains vs naive retrieval  
+- **Biologically inspired dynamics**: adaptive write/forget signals and hormone-like decay
+- **Graph-aware consolidation**: memories interact over a sparse graph scored by a value function
+- **Resilience-first design**: safeguards against runaway growth, catastrophic forgetting, and noise
+- **Theory-backed**: convergence and boundedness under realistic assumptions
+- **Practical wins**: early internal runs show strong recall and throughput gains vs naive retrieval
+
+---
+
+## Documentation
+
+### Core Documentation
+- **[BREAKTHROUGH.md](BREAKTHROUGH.md)** - Technical breakthrough details and architecture overview
+- **[FOUNDATION.md](FOUNDATION.md)** - Mathematical foundations and formal proofs
+- **[IMPACT.md](IMPACT.md)** - White paper on research significance and applications
+- **[whitepaper.md](whitepaper.md)** - Comprehensive white paper with technical details
+- **[wiki_page.md](wiki_page.md)** - Complete project wiki and reference guide
+
+### Project Documentation
+- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Community guidelines and standards
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute to the project
+- **[SECURITY.md](SECURITY.md)** - Security policy and vulnerability reporting
 
 ---
 

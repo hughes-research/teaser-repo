@@ -1,5 +1,11 @@
 # Mathematical Foundations of the Resilient GNN Controller
 
+Authors:
+    Resilient AI Research July 2025
+
+License:
+    Apache License 2.0 - See LICENSE file for details
+
 ## 1. Introduction
 
 This document provides the mathematical foundations underlying the Resilient GNN Controller system. We present formal definitions, theorems, and proofs that establish the theoretical guarantees of the system's performance and stability.
@@ -395,6 +401,22 @@ This work provides:
 - Mathematical justification for psychological modeling in AI
 
 The mathematical foundations demonstrate that human-like psychological resilience can be rigorously formalized and implemented in artificial systems, achieving provable stability and performance guarantees.
+
+---
+
+## Related Documentation
+
+### Core Documentation
+- **[README.md](README.md)** - Project overview and quick start guide
+- **[BREAKTHROUGH.md](BREAKTHROUGH.md)** - Technical breakthrough details and architecture overview
+- **[IMPACT.md](IMPACT.md)** - Research significance and broader applications
+- **[whitepaper.md](whitepaper.md)** - Comprehensive technical white paper
+- **[wiki_page.md](wiki_page.md)** - Complete project wiki and reference guide
+
+### Project Documentation
+- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Community guidelines and standards
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute to the project
+- **[SECURITY.md](SECURITY.md)** - Security policy and vulnerability reporting
 
 ---
 

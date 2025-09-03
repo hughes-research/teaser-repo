@@ -1,5 +1,11 @@
 # Contributing
 
+Authors:
+    Resilient AI Research July 2025
+
+License:
+    Apache License 2.0 - See LICENSE file for details
+
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. 
 
@@ -90,3 +96,19 @@ available at [http://contributor-covenant.org/version/1/4][version]
 
 [homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/4/
+
+---
+
+## Related Documentation
+
+### Core Documentation
+- **[README.md](README.md)** - Project overview and quick start guide
+- **[BREAKTHROUGH.md](BREAKTHROUGH.md)** - Technical breakthrough details and architecture overview
+- **[FOUNDATION.md](FOUNDATION.md)** - Mathematical foundations and formal proofs
+- **[IMPACT.md](IMPACT.md)** - Research significance and broader applications
+- **[whitepaper.md](whitepaper.md)** - Comprehensive technical white paper
+- **[wiki_page.md](wiki_page.md)** - Complete project wiki and reference guide
+
+### Project Documentation
+- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Community guidelines and standards (this document)
+- **[SECURITY.md](SECURITY.md)** - Security policy and vulnerability reporting

@@ -1,6 +1,12 @@
 
 # Contributor Covenant 3.0 Code of Conduct
 
+Authors:
+    Resilient AI Research July 2025
+
+License:
+    Apache License 2.0 - See LICENSE file for details
+
 ## Our Pledge
 
 We pledge to make our community welcoming, safe, and equitable for all.
@@ -90,3 +96,19 @@ This Code of Conduct is adapted from the Contributor Covenant, version 3.0, perm
 Contributor Covenant is stewarded by the Organization for Ethical Source and licensed under CC BY-SA 4.0. To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 
 For answers to common questions about Contributor Covenant, see the FAQ at [https://www.contributor-covenant.org/faq](https://www.contributor-covenant.org/faq). Translations are provided at [https://www.contributor-covenant.org/translations](https://www.contributor-covenant.org/translations). Additional enforcement and community guideline resources can be found at [https://www.contributor-covenant.org/resources](https://www.contributor-covenant.org/resources). The enforcement ladder was inspired by the work of [Mozilla’s code of conduct team](https://github.com/mozilla/inclusion).
+
+---
+
+## Related Documentation
+
+### Core Documentation
+- **[README.md](README.md)** - Project overview and quick start guide
+- **[BREAKTHROUGH.md](BREAKTHROUGH.md)** - Technical breakthrough details and architecture overview
+- **[FOUNDATION.md](FOUNDATION.md)** - Mathematical foundations and formal proofs
+- **[IMPACT.md](IMPACT.md)** - Research significance and broader applications
+- **[whitepaper.md](whitepaper.md)** - Comprehensive technical white paper
+- **[wiki_page.md](wiki_page.md)** - Complete project wiki and reference guide
+
+### Project Documentation
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute to the project
+- **[SECURITY.md](SECURITY.md)** - Security policy and vulnerability reporting
