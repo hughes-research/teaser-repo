@@ -94,8 +94,9 @@ Evidence and limitations
 
 ## What stays private until launch
 - Full architecture and training recipes  
-- GNN controller specifics and value-function internals  
-- Formal proofs and proof scripts  
+- Memory Consoldation process source
+- Full Docker Containers
+- API interface layer and LLM model proxy  
 
 ## Timeline
 - Public release target: **November 2025**  
