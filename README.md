@@ -98,9 +98,8 @@ Evidence and limitations
 - Full Docker Containers
 - API interface layer and LLM model proxy  
 
-## Timeline
-- Public release target: **November 2025**  
-  - Rust commercial edition: in development (performance-critical path, memory core)
+## Our staff will be showing our technology at the NolaAi event from our founder.
+Dustin T Hughes 
 
 ## Follow along
 Watch this repository to get updates as we share more.  
