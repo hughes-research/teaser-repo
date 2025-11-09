@@ -100,6 +100,8 @@ Evidence and limitations
 
 ## Our staff will be showing our technology at the NolaAi event from our founder.
 Dustin T Hughes 
+New Orleans Jazz Museum
+400 Esplanade Ave, New Orleans, LA 70116
 November 11, 2025 at 11:30 am. 
 
 ## Follow along
